@@ -1,4 +1,4 @@
-#FEEG6042: Computing Tutorial 1
+#FEEG6042: Computing Tutorial 1, classifying image data
 from keras.src.backend.jax import cudnn_ok
 import numpy as np
 import sklearn
@@ -56,4 +56,5 @@ plt.title('Accuracy')
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Test'], loc='upper left')
+
 plt.show()
