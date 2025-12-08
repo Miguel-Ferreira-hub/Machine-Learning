@@ -1,4 +1,4 @@
-#FEEG6042: Computing Tutorial 3
+#FEEG6042: Computing Tutorial 3, recurrent neural network to classify sound
 import numpy as np
 import sklearn
 import keras
@@ -127,4 +127,5 @@ plt.title('Accuracy values across the 4 models')
 plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Test'], loc='upper left')
+
 plt.show()
