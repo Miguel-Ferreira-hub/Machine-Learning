@@ -1,4 +1,4 @@
-#FEEG6042: Computing Tutorial 5 - Recurrent Neural Network to classify sound
+#FEEG6042: Computing Tutorial 5 - Recurrent Neural Network to classify sound, briefly exploring different scaling
 import numpy as np
 import sklearn
 import keras
@@ -141,4 +141,5 @@ plt.title('Accuracy for the 4 models')
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Model 1 Train', 'Model 1 Test', 'Model 2 Train', 'Model 2 Test', 'Model 3 Train', 'Model 3 Test', 'Model 4 Train', 'Model 4 Test'], loc='upper left')
+
 plt.show()
