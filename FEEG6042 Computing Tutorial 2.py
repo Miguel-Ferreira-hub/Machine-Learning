@@ -1,4 +1,4 @@
-#FEEG6042: Computing Tutorial 2
+#FEEG6042: Computing Tutorial 2, convolutional neural network that is also an auto-encoder
 #from keras.src.backend.jax import cudnn_ok
 import numpy as np
 import sklearn
@@ -125,3 +125,4 @@ for i in np.arange(5):
 daa = clone_model(cnn)
 daa.compile(loss='mse', optimizer='adam', metrics=['mse'])
 history = daa.fit(X_trainN, Y_train, validation_data = (X_testN,Y_test), epochs=5, batch_size=64)
+
