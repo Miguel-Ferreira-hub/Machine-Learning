@@ -1,4 +1,4 @@
-#FEEG6042: Computing Tutorial 4
+#FEEG6042: Computing Tutorial 4, convolutional neural network to classify images with the ability to change model architecture to add different types of features
 import sklearn
 import keras
 import keras.datasets.mnist as mnist
@@ -85,4 +85,5 @@ plt.title('Accuracy')
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Model 1 Train', 'Model 1 Test', 'Model 2 Train', 'Model 2 Test'], loc='upper left')
+
 plt.show()
