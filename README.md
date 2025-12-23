@@ -1,2 +1,2 @@
 # Machine-Learning
-This is a repository for all my projects related to machine learning
+This is a general repository for machine learning projects, mainly formed from coursework tasks or independent exploration.
